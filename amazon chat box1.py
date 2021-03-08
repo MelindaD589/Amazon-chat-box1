@@ -5,7 +5,8 @@ print("So, what can I help you with?")
 
 # Here you can choose from four options
 
-help list = input("An item I ordered", "Managing my payment, Prime, or account", "Help with Kindle, Fire, or Alexa device", "Music, eBooks, Prime Video, etc.")
+helplist = ["An item I ordered", "Managing my payment, Prime, or account", "Help with Kindle, Fire, or Alexa device", "Music, eBooks, Prime Video, etc."]
+print(helplist)
 
 # Ok, I choose the first
 answer1 = "An item I ordered"
@@ -14,9 +15,12 @@ answer1 = "An item I ordered"
 if answer1 == "An item I ordered":
     print("Select the item that you need help with.")
 
+orders = ["apple", "phone", "Item not on list."]
+print(orders)
+
 # I do not choose any of them.
-answer2 = "Item not on list." 
+answer2 = "Item not on list."
 
 # Messaging Assistant, Customer Service
-if answer2 == "Item not on list"
+if answer2 == "Item not on list.":
     print("I'm sorry to hear that. Let me know which of these you need help with.")
